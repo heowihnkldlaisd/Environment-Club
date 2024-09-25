@@ -7,7 +7,8 @@ h1{
 
 .header {
     background-color: rgb(135, 174, 174);
-    text-decoration: none;
+    text-align: center;
+    width: 100%;
 }
 
 .hero-span {
@@ -35,6 +36,65 @@ h1{
 
 .WWD{
     text-align: center;
-    width: 1400px;
+    width: 90%;
     margin: 0 auto 0 auto;
+}
+
+.footer{
+    background-color: rgb(135, 174, 174);
+    width: 100%;
+    padding: 10px 0 30px 0;
+}
+
+.two-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: 0 auto 0 auto;
+}
+
+.list{
+    display:block;
+    text-align: left;
+}
+
+.layer{
+    min-height: 550px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h5{
+    text-decoration: underline;
+}
+
+.cta{
+    text-align: center;
+    line-height: 4;
+}
+
+.button{
+    line-height: 1;
+    text-align: center;
+    background-color: rgb(206, 245, 140);
+    display: block;
+    padding: 15px 5px 15px 5px;
+    width: 150px;
+    margin: 5px auto 5px auto;
+    border-radius: 100px;
+}
+
+.OP{
+    text-align: center;
+    background-color: rgb(140, 245, 193);
+    padding-top: 30px;
+}
+
+.nav{
+    display: inline-block;
+    margin: 5px 10px 5px 10px;
+    width: 10px;
 }
