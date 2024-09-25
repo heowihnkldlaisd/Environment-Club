@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
+
+h1{
+    font-size: 70px;
+}
+
+.header {
+    background-color: rgb(135, 174, 174);
+    text-decoration: none;
+}
+
+.hero-span {
+    font-family: 'Kolker Brush'
+}
+
+.title {
+    font-family: 'Italiana';
+}
+
+.hero{
+    text-align: center;
+}
+
+.three-column{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.column{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+}
+
+.WWD{
+    text-align: center;
+    width: 1400px;
+    margin: 0 auto 0 auto;
+}
