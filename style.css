@@ -2,8 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Kolker+Brush&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,335;1,335&display=swap');
 
+body{
+    background-image: url("./Images/pexels-caleb-kwok-1328001-2558460.jpg");
+    width: 100%;
+}
+
 h1{
     font-size: 70px;
+    color: white;
 }
 
 h2{
@@ -58,6 +64,9 @@ a:hover{
     background-color: rgb(135, 174, 174);
     width: 100%;
     padding: 10px 0 30px 0;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .two-column{
@@ -74,6 +83,8 @@ a:hover{
 
 .layer{
     min-height: 550px;
+    width: 1500px;
+    margin: 0 auto 0 auto;
 }
 
 a{
