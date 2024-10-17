@@ -8,16 +8,22 @@ body{
 }
 
 img{
+    display: inline-block;
     object-fit: cover;
     overflow: hidden;
-    max-width: 100%;
+    position: static;
     max-height: 100%;
+    margin: 0;
 }
 
 .img-container{
-    width: 40%;
-    height: 500px;
-    margin: auto auto auto auto;
+    width: 400px;
+    height: 700px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    align-content: center;
+    margin: 20px 5px 20px 5px;
 }
 
 h1{
@@ -30,6 +36,7 @@ h2{
     text-underline-position: under;
     margin-top: 0;
     padding-top: 30px;
+    text-align: center;
 }
 
 a:hover{
@@ -61,14 +68,20 @@ a:hover{
 }
 
 .column{
-    margin-left: 100px;
-    margin-right: 100px;
     text-align: center;
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p.column{
+    margin-top: 0;
+    padding-top: 0;
 }
 
 .WWD{
     text-align: center;
-    width: 100%;
+    width: 80%;
     margin: 0 auto 0 auto;
     background-color: rgb(206, 245, 140);
 }
@@ -85,8 +98,9 @@ a:hover{
 .two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width: 50%;
+    width: 1500px;
     margin: 0 auto 0 auto;
+    place-items: center;
 }
 
 .list{
@@ -98,6 +112,7 @@ a:hover{
     min-height: 550px;
     width: 1500px;
     margin: 0 auto 0 auto;
+    padding: 0;
 }
 
 a{
