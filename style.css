@@ -163,3 +163,24 @@ h5{
     border: rgb(82, 189, 21) solid 1px;
     border-radius: 50px;
 }
+
+.WWA{
+    background-color: rgb(206, 245, 140);
+    height: 1000px;
+}
+
+.top{
+    align-self: start;
+    width: 53%;
+}
+
+div.WWA {
+    width: 750px;
+    height: 521.25px;
+    text-align: left;
+}
+
+.about {
+    line-height: 2;
+    font-size: 25px;
+}
