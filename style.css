@@ -12,19 +12,11 @@ img{
     object-fit: cover;
     overflow: hidden;
     position: static;
-    max-height: 100%;
+    align-self: center;
+    height: 100%;
     margin: 0;
 }
 
-.img-container{
-    width: 400px;
-    height: 700px;
-    padding: 0;
-    position: relative;
-    overflow: hidden;
-    align-content: center;
-    margin: 20px 5px 20px 5px;
-}
 
 h1{
     font-size: 70px;
@@ -37,6 +29,7 @@ h2{
     margin-top: 0;
     padding-top: 30px;
     text-align: center;
+    margin-bottom: 60px;
 }
 
 a:hover{
@@ -80,6 +73,7 @@ p.column{
 }
 
 .WWD{
+    align-self: start;
     text-align: center;
     width: 80%;
     margin: 0 auto 0 auto;
@@ -155,4 +149,17 @@ h5{
 
 .font{
     font-family: 'Josefin Sans';
+}
+
+.img-container{
+    display: flex;
+    width: 400px;
+    height: 700px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    align-content: center;
+    margin: 5px 5px 40px 5px;
+    border: rgb(82, 189, 21) solid 1px;
+    border-radius: 50px;
 }
