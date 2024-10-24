@@ -211,3 +211,21 @@ div.dropdown:hover {
 .FAQ {
     height: 800px;
 }
+
+.layer.contact {
+    background-color: rgb(206, 245, 140);
+    height: 1200px;
+    text-align: center;
+    align-items: center;
+    display: grid;
+}
+
+p.contact {
+    line-height: 2;
+    height: 100px;
+}
+
+div.contact {
+    align-self: center;
+    margin: 0 auto 200px auto;
+}
