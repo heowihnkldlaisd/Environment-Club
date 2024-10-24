@@ -184,3 +184,30 @@ div.WWA {
     line-height: 2;
     font-size: 25px;
 }
+
+.layer.FAQ {
+    background-color: rgb(206, 245, 140);
+    padding-top: 10px;
+}
+
+.dropdown{
+    display: block;
+    background-color: rgb(135, 174, 174);
+    width: 800px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+
+.drop-info {
+    display: none;
+}
+
+div.dropdown:hover {
+    background-color: white;
+}
+
+.FAQ {
+    height: 800px;
+}
